@@ -18,8 +18,11 @@ Use UIBezierPath to draw the indicator and windmill, according to the value is g
     WindmillView *windmillView = [[WindmillView alloc] initWithFrame:CGRectMake(100, 350, 150, 150)];
     windmillView.duration = 1;// duration: 转到规定的角度所需要的时间（本风车转到2pi），即周期，duration越小，转速越快
     [self.view addSubview:windmillView];
+```
 
 ## 联系我 Contact Me
 如果您觉得本Demo好用，请为我加星，非常感谢，🙏！&nbsp;如果您有什么疑问/建议，非常欢迎联系我，🙏！
 
 QQ/微信: 852354291&nbsp;&nbsp;&nbsp;&nbsp;Email: 852354291@qq.com
+
+Please Star Me, Follow Me, Thank You!😊
