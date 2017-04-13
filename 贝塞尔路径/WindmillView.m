@@ -135,8 +135,8 @@
 -(void)setDuration:(CGFloat)duration {
     _duration = duration;
     
-//    CABasicAnimation *rotationAnimation = [CABasicAnimation rotateToValue:@(2 * M_PI) duration:duration autoreverses:NO removedOnCompletion:NO repeatCount:MAXFLOAT];
-//    [self.fanView.layer addAnimation:rotationAnimation forKey:@"WindmillView-rotateAnimation"];
+    CABasicAnimation *rotationAnimation = [CABasicAnimation rotateToValue:@(2 * M_PI) duration:duration autoreverses:NO removedOnCompletion:NO repeatCount:MAXFLOAT];
+    [self.fanView.layer addAnimation:rotationAnimation forKey:@"WindmillView-rotateAnimation"];
 }
 
 @end
