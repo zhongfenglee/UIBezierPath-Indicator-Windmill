@@ -118,7 +118,7 @@
     _percent = percent;
     
     [UIView animateWithDuration:3 delay:3 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        CABasicAnimation *rotationAnimation = [CABasicAnimation rotateToValue:@(M_PI + (percent <= 500? percent: 500) / 500.0 * M_PI) duration:2 autoreverses:YES removedOnCompletion:NO repeatCount:1.5];
+        CABasicAnimation *rotationAnimation = [CABasicAnimation rotateToValue:@(M_PI + (percent <= 500? percent: 500) / 500.0 * M_PI) duration:2 autoreverses:YES removedOnCompletion:NO repeatCount:0.5];
         [self.indicatorShapeLayer addAnimation:rotationAnimation forKey:@"dialView-rotateAnimation"];
     } completion:nil];
 }
