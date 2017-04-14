@@ -4,7 +4,7 @@
 Use UIBezierPath to draw the indicator and windmill, according to the value is given to indicate to a corresponding angle or the speed of rotation, both with animation.
 
 效果图（picture）：
-![](https://github.com/zhongfenglee/UIBezierPath-Indicator-Windmill/blob/master/Screenshot/Animated-Indicator:Windmill.png?raw=true "Animated-Indicator/Windmill")
+![](https://github.com/zhongfenglee/UIBezierPath-Indicator-Windmill/blob/master/Screenshot/36D5207E4FDB1BBED8A796F802E0EFD3.gif?raw=true "Animated-Indicator/Windmill")
 
 
 ## 使用 Use
